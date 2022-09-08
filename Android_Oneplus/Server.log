@@ -1,0 +1,63 @@
+2022-09-08 07:18:41:965 [Appium] Welcome to Appium v1.22.3
+2022-09-08 07:18:41:967 [Appium] Non-default server args:
+2022-09-08 07:18:41:967 [Appium]   port: 15412
+2022-09-08 07:18:41:967 [Appium]   sessionOverride: true
+2022-09-08 07:18:41:968 [Appium]   logFile: D:\CICD\CT\AndroidAutomation_Farmer\Android_Oneplus\Server.log
+2022-09-08 07:18:41:996 [Appium] Appium REST http interface listener started on 0.0.0.0:15412
+2022-09-08 07:18:42:126 [HTTP] --> GET /wd/hub/status
+2022-09-08 07:18:42:126 [HTTP] {}
+2022-09-08 07:18:42:128 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-09-08 07:18:42:130 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-09-08 07:18:42:135 [HTTP] <-- GET /wd/hub/status 200 7 ms - 68
+2022-09-08 07:18:42:135 [HTTP] 
+2022-09-08 07:18:42:141 [HTTP] --> GET /wd/hub/status
+2022-09-08 07:18:42:142 [HTTP] {}
+2022-09-08 07:18:42:142 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-09-08 07:18:42:143 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-09-08 07:18:42:145 [HTTP] <-- GET /wd/hub/status 200 3 ms - 68
+2022-09-08 07:18:42:145 [HTTP] 
+2022-09-08 07:18:42:156 [HTTP] Request idempotency key: 59ca51b1-9e3a-4957-af24-f660827666e1
+2022-09-08 07:18:42:168 [HTTP] --> POST /wd/hub/session
+2022-09-08 07:18:42:168 [HTTP] {"desiredCapabilities":{"app":"D:\\CICD\\CT\\AndroidAutomation_Farmer\\src\\test\\resources\\apps\\nitara-1.0.0.1997-qa-debug.apk","automationName":"uiautomator2","autoGrantPermissions":"true","platformName":"Android","udid":"de319e1e2346","deviceName":"Oneplus"},"capabilities":{"firstMatch":[{"appium:app":"D:\\CICD\\CT\\AndroidAutomation_Farmer\\src\\test\\resources\\apps\\nitara-1.0.0.1997-qa-debug.apk","appium:autoGrantPermissions":"true","appium:automationName":"uiautomator2","appium:deviceName":"Oneplus","platformName":"android","appium:udid":"de319e1e2346"}]}}
+2022-09-08 07:18:42:168 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"D:\\CICD\\CT\\AndroidAutomation_Farmer\\src\\test\\resources\\apps\\nitara-1.0.0.1997-qa-debug.apk","automationName":"uiautomator2","autoGrantPermissions":"true","platformName":"Android","udid":"de319e1e2346","deviceName":"Oneplus"},null,{"firstMatch":[{"appium:app":"D:\\CICD\\CT\\AndroidAutomation_Farmer\\src\\test\\resources\\apps\\nitara-1.0.0.1997-qa-debug.apk","appium:autoGrantPermissions":"true","appium:automationName":"uiautomator2","appium:deviceName":"Oneplus","platformName":"android","appium:udid":"de319e1e2346"}]}]
+2022-09-08 07:18:42:169 [BaseDriver] Event 'newSessionRequested' logged at 1662621522168 (12:48:42 GMT+0530 (India Standard Time))
+2022-09-08 07:18:42:371 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-09-08 07:18:42:371 [Appium] There are no active sessions for cleanup
+2022-09-08 07:18:42:373 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-09-08 07:18:42:373 [BaseDriver] Creating session with W3C capabilities: {
+2022-09-08 07:18:42:373 [BaseDriver]   "alwaysMatch": {
+2022-09-08 07:18:42:373 [BaseDriver]     "platformName": "android",
+2022-09-08 07:18:42:373 [BaseDriver]     "appium:app": "D:\\CICD\\CT\\AndroidAutomation_Farmer\\src\\test\\resources\\apps\\nitara-1.0.0.1997-qa-debug.apk",
+2022-09-08 07:18:42:373 [BaseDriver]     "appium:autoGrantPermissions": "true",
+2022-09-08 07:18:42:373 [BaseDriver]     "appium:automationName": "uiautomator2",
+2022-09-08 07:18:42:373 [BaseDriver]     "appium:deviceName": "Oneplus",
+2022-09-08 07:18:42:373 [BaseDriver]     "appium:udid": "de319e1e2346"
+2022-09-08 07:18:42:373 [BaseDriver]   },
+2022-09-08 07:18:42:373 [BaseDriver]   "firstMatch": [
+2022-09-08 07:18:42:374 [BaseDriver]     {}
+2022-09-08 07:18:42:374 [BaseDriver]   ]
+2022-09-08 07:18:42:374 [BaseDriver] }
+2022-09-08 07:18:42:377 [BaseDriver] Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
+2022-09-08 07:18:42:379 [BaseDriver] Session created with session id: ceaf3daf-c597-484f-b300-80fac746cee9
+2022-09-08 07:18:42:381 [BaseDriver] Using local app 'D:\CICD\CT\AndroidAutomation_Farmer\src\test\resources\apps\nitara-1.0.0.1997-qa-debug.apk'
+2022-09-08 07:18:42:381 [UiAutomator2] Checking whether app is actually present
+2022-09-08 07:18:42:401 [ADB] Found 2 'build-tools' folders under 'C:\Users\MAYANKMAURYA\AppData\Local\Android\Sdk' (newest first):
+2022-09-08 07:18:42:401 [ADB]     C:/Users/MAYANKMAURYA/AppData/Local/Android/Sdk/build-tools/33.0.0
+2022-09-08 07:18:42:401 [ADB]     C:/Users/MAYANKMAURYA/AppData/Local/Android/Sdk/build-tools/30.0.3
+2022-09-08 07:18:42:402 [ADB] Using 'adb.exe' from 'C:\Users\MAYANKMAURYA\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-09-08 07:18:42:402 [ADB] Running 'C:\Users\MAYANKMAURYA\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-09-08 07:18:42:439 [AndroidDriver] Retrieving device list
+2022-09-08 07:18:42:439 [ADB] Trying to find a connected android device
+2022-09-08 07:18:42:439 [ADB] Getting connected devices
+2022-09-08 07:18:42:465 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2022-09-08 07:18:42:465 [AndroidDriver] Device de319e1e2346 was not in the list of connected devices
+2022-09-08 07:18:42:466 [UiAutomator2] Deleting UiAutomator2 session
+2022-09-08 07:18:42:467 [BaseDriver] Event 'newSessionStarted' logged at 1662621522467 (12:48:42 GMT+0530 (India Standard Time))
+2022-09-08 07:18:42:529 [W3C] Encountered internal error running command: Error: Device de319e1e2346 was not in the list of connected devices
+2022-09-08 07:18:42:529 [W3C]     at Object.errorAndThrow (C:\Users\MAYANKMAURYA\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:94:35)
+2022-09-08 07:18:42:530 [W3C]     at Object.getDeviceInfoFromCaps (C:\Users\MAYANKMAURYA\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:231:16)
+2022-09-08 07:18:42:530 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\MAYANKMAURYA\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:338:26)
+2022-09-08 07:18:42:530 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\MAYANKMAURYA\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+2022-09-08 07:18:42:530 [W3C]     at AppiumDriver.createSession (C:\Users\MAYANKMAURYA\AppData\Roaming\npm\node_modules\appium\lib\appium.js:387:35)
+2022-09-08 07:18:42:537 [HTTP] <-- POST /wd/hub/session 500 369 ms - 695
+2022-09-08 07:18:42:537 [HTTP] 
