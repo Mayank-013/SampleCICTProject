@@ -32,8 +32,8 @@
 <class name="com.nitara.BreedingManagement.DeleteHeat"/>
 <class name="com.nitara.BreedingManagement.EditDryPeriod"/>
 <class name="com.nitara.BreedingManagement.DeleteDryPeriod"/> 
-<class name="com.nitara.AccountManagement.LoginWithOTP"/>-->
-<class name="com.nitara.AccountManagement.ForgotPin"/>
+<class name="com.nitara.AccountManagement.LoginWithOTP"/>
+<class name="com.nitara.AccountManagement.ForgotPin"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
