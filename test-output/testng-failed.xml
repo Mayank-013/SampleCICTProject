@@ -6,8 +6,8 @@
       <class name="com.nitara.AccountManagement.ForgotPin">
         <methods>
           <include name="quit"/>
-          <include name="ForgotPin_PinLessThanSixDigitsNotAccepted"/>
           <include name="initialize"/>
+          <include name="ForgotPin_PinLessThanSixDigitsNotAccepted"/>
           <include name="ForgotPin_CannotSetOldPin"/>
           <include name="ForgotPin_PinAndConfirmPinMustMatch"/>
         </methods>
@@ -20,13 +20,6 @@
           <include name="initialize"/>
         </methods>
       </class> <!-- com.nitara.AccountManagement.SignUp -->
-      <class name="com.nitara.AccountManagement.LoginWithOTP">
-        <methods>
-          <include name="quit"/>
-          <include name="initialize"/>
-          <include name="LoginwithOTP_ValidData"/>
-        </methods>
-      </class> <!-- com.nitara.AccountManagement.LoginWithOTP -->
     </classes>
   </test> <!-- Smoke(failed) -->
 </suite> <!-- Failed suite [Smoke TestSuite] -->
